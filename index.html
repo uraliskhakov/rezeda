@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ru">
+        <head>
+        <meta charset="UTF-8">
+        <title>Bakirova</title>
+        <link rel="icon" href="resourses/favicon.png" type="image/png">
+        <link rel="stylesheet" href="reset.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+        </head>
+    <body>
+        
+                <header>
+                        <picture>
+                            <source media="(max-width: 500px)" srcset="resourses/logo/logo_phone.png" />
+                            <img
+                                class="logo"
+                                src="resourses/logo/logoRe.png"
+                                alt="Логотип компании Бакирова"
+                            />
+                        </picture>
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li>
+                                    <a class="nav__link" href="#about-us">обо мне</a>
+                                </li>
+                                <li>
+                                    <a class="nav__link" href="#projects">проекты</a>
+                                </li>
+                                <li>
+                                    <a class="nav__link" href="#services">услуги</a>
+                                </li>
+                                <li>
+                                    <a class="nav__link" href="#contacts">контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <button class="burger__btn js-burger-btn"></button>
+                        <div class="burger js-burger">
+                            <div class="burger__content ">
+                                <img
+                                    class="burger__logo"
+                                    src="resourses/logo/logoRe.png"
+                                    alt="Логотип компании Бакирова"
+                                />
+                                <nav class="burger__nav">
+                                    <ul class="burger__navList">
+                                        <li>
+                                            <a class="burger__navItem" href="#about-us">обо мне</a>
+                                        </li>
+                                        <li>
+                                            <a class="burger__navItem" href="#projects">проекты</a>
+                                        </li>
+                                        <li>
+                                            <a class="burger__navItem" href="#services">услуги</a>
+                                        </li>
+                                        <li>
+                                            <a class="burger__navItem" href="#contacts">контакты</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div class="burger__contacts js-burger__content">
+                                    <div class="burger__contactsTitle">для связи:</div>
+                                    <a  class="burger__contactsPhone" href="tel:+79876072546">+7 987 607 25 46 </a>
+                                    <div class="burger__contactsTg">
+                                        <a  
+                                        class="burger__contactsLink" 
+                                        target="_blank"
+                                        href="https://t.me/uraiskh">Rezeda Bakirova</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </header> 
+                
+            <main>
+                <div class="popup-box">
+                    
+                    <div class="js-popup popup">
+                        <div class="js-popup__content popup__content">
+                            <p class="popup__title">Заказать услугу</p>
+                            <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
+                            
+                            <div class="input_wrapper">
+                                <input
+                                    class="input"
+                                    type="text"
+                                    placeholder="Имя">
+                                <input
+                                    class="input"
+                                    type="text"
+                                    placeholder="Электронная почта">
+                                <input
+                                    class="input"
+                                    type="text"
+                                    placeholder="Номер телефона">
+                            </div>
+                            <button class="full-width-button full-width-button_inverted full-width-button_small">Отправить</button>
+                        <div class="js-popup__close-btn popup__close-btn"></div>
+                    </div>
+                </div>
+                <section class="intro">
+                                <h1 class="intro__text">
+                                    Современные подходы по сохранению Вашего здоровья
+                                </h1>
+                                <div class="intro-image">
+                                    <p class="intro-image__text">
+                                    Помогаю своим клиентам, используя различные техники массажа.<br /> 
+                                    Опираюсь на свой опыт врачебной практики.
+                                    </p>
+                                </div>
+                </section>
+                <section class="about-us">
+                            <h2 id="about-us">Обо мне</h2>
+                            <p class="about-us__text">Массажем занимаюсь более 10 лет. Клиенты приходят с разными запросами.
+                                К каждому нахожу индивидуалный подход. Курс подбираю с учетом физического и эмоционального состояния человека.
+                            </p>
+                            <a class="about-us__button">Посмотреть услуги</a>
+                </section>
+                <!-- <section class="section-long">
+                            <h2 id="projects">Проекты</h2>
+                            <ul class="projects">
+                                <li class="project">
+                                    <picture>
+                                        <source
+                                            media="(max-width: 767px)"
+                                            srcset="resourses/project/project_sofa_phone.png"
+                                        />
+                                        <source
+                                            media="(max-width: 1199px)"
+                                            srcset="resourses/project/project_sofa_tablet.png"
+                                        />
+                                        <img
+                                            class="project_image"
+                                            src="resourses/project/project_sofa.png"
+                                            alt="Диван"
+                                        />
+                                    </picture>
+                                    <h3 class="project__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+                                    <a class=project_link href="">Подробнее →</a>
+                                </li>
+                                <li class="project">
+                                    <picture>
+                                        <source
+                                            media="(max-width: 767px)"
+                                            srcset="resourses/project/project_TV_phone.png"
+                                        />
+                                        <source
+                                            media="(max-width: 1199px)"
+                                            srcset="resourses/project/project_TV_tablet.png"
+                                        />
+                                        <img
+                                            class="project_image"
+                                            src="resourses/project/project_TV.png"
+                                            alt="Телевизор"
+                                        />
+                                    </picture>
+                                    <h3 class="project__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+                                    <a class=project_link href="">Подробнее →</a>
+                                </li>
+                                <li class="project">
+                                    <picture>
+                                        <source
+                                            media="(max-width: 767px)"
+                                            srcset="resourses/project/project_table_phone.png"
+                                        />
+                                        <source
+                                            media="(max-width: 1199px)"
+                                            srcset="resourses/project/project_table_tablet.png"
+                                        />
+                                        <img
+                                            class="project_image"
+                                            src="resourses/project/project_table.png"
+                                            alt="Лестница"
+                                        />
+                                    </picture>
+                                    <h3 class="project__title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+                                    <a class=project_link href="">Подробнее →</a>
+                                    <a href="" class="full-width-button"
+                                    >Смотреть все проекты</a>
+                                </li>
+                            </ul>
+                </section> -->
+                    
+                    <div class="container-black">
+                        <section class="section-long section-service">
+                            <h2   id="services">Услуги</h2>
+                            <ul class="services">
+                                <li class="service">
+                                    <img
+                                    class="service_image"
+                                    src="resourses/services/lechebni.jpg" alt="Лечебный массаж">
+                                    <div class="service__price">от 2500₽</div>
+                                    <div class="service__title">Лечебный массаж</div>
+                                </li>
+                                <li class="service">
+                                    <img
+                                    class="service_image"
+                                    src="resourses/services/teip.jpg" alt="Тейпирование">
+                                    <div class="service__price">от 2000₽</div> 
+                                    <div class="service__title">Тейпирование</div>
+                                </li>
+                                <li class="service">
+                                    <img
+                                    class="service_image"
+                                    src="resourses/services/face.jpg" alt="Массаж лица">
+                                    <div class="service__price">от 3000₽</div> 
+                                    <div class="service__title">Массаж лица</div>
+                                </li>
+                                <li class="service">
+                                    <img
+                                    class="service_image"
+                                    src="resourses/services/komplex.jpg" alt="Комплексный массаж">
+                                    <div class="service__price">от 5000₽</div>
+                                    <div class="service__title">Комплексный массаж</div>
+                                </li>
+                            </ul>
+                                <button class="js-btn full-width-button full-width-button_inverted">Заказать услугу</button>
+                     
+                        </section>    
+                    </div>
+
+                    <section class="section-long section-reviews">
+                        <h2 id="reviews">отзывы</h2> 
+                        <ul class="reviews">
+                            <li class="review">
+                                <div class="review__title">Ксения, 35 лет</div>
+                                <div class="review__text">
+                                    Хочу искренне поблагодарить Вас за Вашу чуткость и тепло! Мне 
+                                    было очень приятно приходить к Вам на сеансы! Спасибо за Ваше умение правильно 
+                                    слышать пожелания своих клиентов и выполнять работу, которая превосходит все ожидания! 
+                                    Я даже не надеялась, что за такой короткий срок я смогу избавиться от многолетних болячек тела<br /><br />
+                                    Я с удовольствием снова приду к Вам на курс. Буду рекомендовать Вас моим близким и друзьям!
+
+
+                                </div>    
+                            </li>
+                            <li class="review">
+                                <div class="review__title">Регина, 50 лет</div>
+                                <div class="review__text">
+                                    Хочу искренне поблагодарить Вас за Вашу чуткость и тепло! Мне 
+                                    было очень приятно приходить к Вам на сеансы! Спасибо за Ваше умение правильно 
+                                    слышать пожелания своих клиентов и выполнять работу, которая превосходит все ожидания! 
+                                    Я даже не надеялась, что за такой короткий срок я смогу избавиться от многолетних болячек тела<br /><br />
+                                    Я с удовольствием снова приду к Вам на курс. Буду рекомендовать Вас моим близким и друзьям!
+
+                                </div>    
+                            </li>
+                            <li class="review">
+                                <div class="review__title">Яна, 41 год</div>
+                                <div class="review__text">
+                                    Хочу искренне поблагодарить Вас за Вашу чуткость и тепло! Мне 
+                                    было очень приятно приходить к Вам на сеансы! Спасибо за Ваше умение правильно 
+                                    слышать пожелания своих клиентов и выполнять работу, которая превосходит все ожидания! 
+                                    Я даже не надеялась, что за такой короткий срок я смогу избавиться от многолетних болячек тела<br /><br />
+                                    Я с удовольствием снова приду к Вам на курс. Буду рекомендовать Вас моим близким и друзьям!
+
+                                </div>    
+                            </li>
+                        </ul>       
+                    </section>
+                
+                    <section class="section-full section-nopadd">
+                            <div class="gallery">
+                                <div class="gallery__title-wrapper"> 
+                                    <div class="container">    
+                                        <p class="gallery__title">Мои компетенции</p>
+                                    </div>
+                                </div>    
+                                    
+                                <div class="gallery__controls-wrapper">
+                                    <div class="container">
+                                        <div class="gallery__controls">
+                                            <batton class="gallery__prev"></batton>
+                                            <batton class="gallery__next"></batton>
+                                        </div>    
+                                    </div>
+                                </div>
+                                
+                                    <div class="gallery__slide gallery__slide-active">
+                                                <picture>
+                                                    <source media="(max-width: 500px)" srcset="resourses/gallery/rebal_phone.jpg">
+                                                    <source media="(max-width: 1199px)" srcset="resourses/gallery/rebal_tablet.jpg">
+                                                    <img class="gallery__image" src="resourses/gallery/rebal.jpg" alt="Ребалансинг"/>
+                                                </picture>
+                                                <div class="gallery__text-wrapper">
+                                                    <div class="container">
+                                                        <p class="gallery__text">
+                                                          Сертификат о прохождении курса по Ошо ребалансингa
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                                <picture>
+                                                    <source media="(max-width: 500px)" srcset="resourses/gallery/diplom_phone.jpg">
+                                                    <source media="(max-width: 1199px)" srcset="resourses/gallery/diplom_tablet.jpg">
+                                                    <img class="gallery__image" src="resourses/gallery/sertificate.jpg" alt="Свидетельство о прохождении курса мл. мед. работника"/>
+                                                </picture>
+                                                <div class="gallery__text-wrapper">
+                                                    <div class="container">
+                                                        <p class="gallery__text">Свидетельство о прохождении курса мл. мед. работника</p>
+                                                    </div>
+                                                </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                                <picture>
+                                                    <source media="(max-width: 500px)" srcset="resourses/gallery/soft_corner-phone.png">
+                                                    <source media="(max-width: 1199px)" srcset="resourses/gallery/soft_corner.png">
+                                                    <img class="gallery__image" src="resourses/gallery/sert.jpg" alt="Диплом о профессиональной переподготовке"/>
+                                                </picture>
+                                                <div class="gallery__text-wrapper">
+                                                    <div class="container">
+                                                        <p class="gallery__text">Диплом о профессиональной переподготовке</p>
+                                                    </div>
+                                                </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                                <picture>
+                                                    <source media="(max-width: 500px)" srcset="resourses/gallery/diplom_phone.jpg">
+                                                    <source media="(max-width: 1199px)" srcset="resourses/gallery/diplom_tablet.jpg">
+                                                    <img class="gallery__image" src="resourses/gallery/diplom.jpg" alt="Свидетельство о прохождении курса мл. мед. работника"/>
+                                                </picture>
+                                                <div class="gallery__text-wrapper">
+                                                    <div class="container">
+                                                        <p class="gallery__text">Свидетельство о прохождении курса мл. мед. работника</p>
+                                                    </div>
+                                                </div>
+                                    </div>
+                                
+                            </div>
+                    </section>
+                    <section class="section-long">
+                        <h2 id="contacts">Контакты</h2>
+                        <div class="contacts-place">
+                            <div class="contacts__phone-wrapper">
+                                <a class="contacts__phone" href="tel:+79358954535">
+                                        +7 987 607-25-46</a>
+                            </div>
+                                
+                            <div class="contacts__email-wrapper">
+                                <a class="contacts__email" href="maelto:hello@mail.com">
+                                        hello@mail.com</a>
+                            </div>
+                        </div>
+                    </section> 
+                </div>
+            </main>  
+            <footer class="container-black">
+                    <nav class="footernav">
+                            <a class="footernav__link" href="#about-us">обо мне</a>
+                            <a class="footernav__link" href="#projects">проекты</a>
+                            <a class="footernav__link" href="#services">услуги</a>
+                            <a class="footernav__link" href="#contacts">контакты</a>
+                    </nav>
+                
+                <p class="footer__title">
+                    Бакирова Резеда Римовна 	&#8212 2023
+                </p>
+
+            </footer>
+             
+     <script src="burger.js"></script>   
+     <script src="gallery.js"></script>   
+     <script src="popup.js"></script>
+     
+    </body>
+</html>
