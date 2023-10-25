@@ -218,17 +218,37 @@
 @media (max-width: 480px) {
 
     .gallery {
-        height: 390px;  /*408px*/
+        height: 370px;  /*408px*/
     }
 
     .gallery__slide {
-        height: 350px;           /*100%*/
+        height: 290px;           /*100%*/
        
     }
 
     .gallery__controls-wrapper {
-        bottom: -64px;
+        top: 70px;
         left: 0;
+    }
+
+    .gallery__text {
+        /* margin-left: 0px; */
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .gallery__controls {
+        padding: 0;
+        display: flex;
+        gap: 14px;
+    }
+
+    .gallery__text-wrapper {
+        top: -80px;
+    }
+
+    .gallery__title-wrapper {   
+        top: 0px;
     }
 }
 
