@@ -46,7 +46,7 @@
 .contacts__phone,
 .contacts__email {
     position: relative;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 60px;
     color: #121212;
     text-decoration: none;
@@ -85,8 +85,8 @@
 
     .contacts__phone,
     .contacts__email {
-    font-size: 45px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 50px;
     }
 
     .contacts__phone {
@@ -111,7 +111,7 @@
     .contacts__phone,
     .contacts__email {
     top: 39px;  
-    font-size: 35px;
+    font-size: 25px;
     line-height: 45.62px;
     }
 
